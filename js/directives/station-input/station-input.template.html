@@ -1,3 +1,9 @@
-<h1 class="text-center">Departing</h1>
+<div ng-if="passSelected">
 
-<p>{{stations}}</p>
+    <h3 class="text-warning">This pass covers your travel between:</h3>
+
+    <ul class="list-group">
+    <button type="button" class="list-group-item" ng-repeat="stationItem in stationsForZone">{{stationItem.name}}</button>
+    </ul>
+
+</div>
