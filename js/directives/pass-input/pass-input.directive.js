@@ -8,6 +8,7 @@ angular
 
           $scope.selectPass = function(highestZone){
               PassService.setSelectedZone(highestZone);
+              $scope.selectedZone = highestZone;
           };
 
       }

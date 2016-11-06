@@ -1,0 +1,19 @@
+body {
+    background: #fff;
+}
+
+h1, .list-group-item {
+    color: #009DE0;
+}
+
+.text-warning, .text-warning:hover {
+    color: #003366;
+}
+
+.btn-default, .list-group-item {
+    background: #009DE0;
+}
+
+.btn-default.selected, .list-group-item:hover {
+    background: #003366 !important;
+}
