@@ -2,12 +2,30 @@ body {
     background: #fff;
 }
 
-h1, .list-group-item {
+h1 {
     color: #009DE0;
 }
 
-.text-warning, .text-warning:hover {
+.btn-station {
+	color: #fff;
+}
+
+.title {
+	margin-top: 10px;
+}
+
+.subtitle {
+	margin-top: 10px;
     color: #003366;
+}
+
+.station-results-title {
+	color: #008dc9;
+	margin: 0;
+}
+
+.station-zone {
+	margin-top: 10px;
 }
 
 .btn-default, .list-group-item {
@@ -15,5 +33,5 @@ h1, .list-group-item {
 }
 
 .btn-default.selected, .list-group-item:hover {
-    background: #003366 !important;
+    background: #008dc9 !important;
 }

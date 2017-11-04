@@ -5,10 +5,7 @@ angular
 function StationService() {
 
   return {
-    getStations: function() { return STATIONS; },
-    selectDepartureStation: function(departureStation) {},
-    selectArrivalStation: function(arrivalStation) {}
+    getStations: function() { return STATIONS; }
+  };
 
-  }
-
-};
+}
