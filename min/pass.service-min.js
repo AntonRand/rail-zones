@@ -6,14 +6,17 @@ function PassService($rootScope) {
 
   var selectedZone;
 
+  var getSelectedZone = function() {
+    return selectedZone;
+  }
+
   return {
     setSelectedZone: function(zone) { 
       selectedZone = zone;
       $rootScope.$broadcast('passChanged');
     },
-    getSelectedZone: function() { 
-      return selectedZone;
-    }
+    getSelectedZone: getSelectedZone
   }
 
 };
+

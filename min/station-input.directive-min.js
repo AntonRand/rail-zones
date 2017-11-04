@@ -1,11 +1,15 @@
 angular
   .module('RailZones')
-  .component('stationInput', {
+  .component('stationsForSelectedZone', {
       restrict: 'E',
-      templateUrl: 'js/directives/station-input/station-input.template.html',
-      controller: function($rootScope, $scope, StationService, PassService) {
+      templateUrl: 'js/directives/stations-for-selected-zone/stations-for-selected-zone.template.html',
+      controller: function($rootScope, $scope, StationService, ZoneService) {
 
         $scope.stations = StationService.getStations();
+
+        $scope.$watch()
+
+
 
         $scope.stationsForZone = [];
 
@@ -25,9 +29,10 @@ angular
 
         $rootScope.$on('passChanged', function() {
           $scope.passSelected = true;
-          $scope.selectedPass = PassService.getSelectedZone();
+          $scope.selectedPass = ZoneService.getSelectedZone();
           stationsForZone();
         });
 
       }
   });
+

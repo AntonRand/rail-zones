@@ -30,8 +30,8 @@
 
     <div class="container">
       <h1 class="text-center title">West Midlands Rail Zones</h1>
-      <pass-input></pass-input>
-      <station-input></station-input>
+      <zone-selector></zone-selector>
+      <stations-for-selected-zone></stations-for-selected-zone>
     </div>
 
   </body>
@@ -40,11 +40,12 @@
   <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
 
-  <script src="js/data/stations.js"></script>
   <script src="js/app.js"></script>
   <script src="js/services/station.service.js"></script>
-  <script src="js/services/pass.service.js"></script>
-  <script src="js/directives/station-input/station-input.directive.js"></script>
-  <script src="js/directives/pass-input/pass-input.directive.js"></script>
+  <script src="js/services/zone.service.js"></script>
+  <script src="js/directives/station/station.directive.js"></script>
+  <script src="js/directives/stations-for-selected-zone/stations-for-selected-zone.directive.js"></script>
+  <script src="js/directives/zone-selector/zone-selector.directive.js"></script>
+  <script src="js/data/stations.js"></script>
 
 </html>

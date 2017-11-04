@@ -1,0 +1,11 @@
+<div ng-if="passSelected">
+
+	<h3 class="subtitle">Results:</h3>
+
+	<div class="container row">
+		<div class="col-sm-6 col-md-4 col-xl-3 pb-3" ng-repeat="stationItem in stationsForZone">
+			<station name="{{stationItem.name}}" zone="{{stationItem.zone}}"></station>
+		</div>
+	</div>
+
+</div>
