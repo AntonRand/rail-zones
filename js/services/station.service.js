@@ -8,8 +8,8 @@ function StationService(STATIONS) {
 		return _.filter(STATIONS, function(station) { return station.zone <= this.zone}, {zone: highestZone})
 	}
 
-  return {
-    getStationsWithinZone: getStationsWithinZone
-  };
+	return {
+		getStationsWithinZone: getStationsWithinZone
+	};
 
 }
