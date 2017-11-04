@@ -1,1 +1,0 @@
-function StationService(){return{getStations:function(){return STATIONS}}}angular.module("RailZones").service("StationService",StationService);

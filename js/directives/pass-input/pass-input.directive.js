@@ -1,7 +1,6 @@
 angular
   .module('RailZones')
-  .directive('passInput', function() {
-    return {
+  .component('passInput', {
       restrict: 'E',
       templateUrl: 'js/directives/pass-input/pass-input.template.html',
       controller: function($scope, StationService, PassService) {
@@ -12,5 +11,4 @@ angular
           };
 
       }
-    }
-  })
+  });

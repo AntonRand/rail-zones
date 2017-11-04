@@ -53,9 +53,9 @@
 	"\/js\/app.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
-		"oAP": "\/js\/min\/app-min.js",
+		"oAP": "\/min\/app-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -63,19 +63,9 @@
 	"\/js\/data\/stations.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
-		"oAP": "\/js\/data\/min\/stations-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/directives\/pass-input\/min\/pass-input.directive-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/js\/directives\/pass-input\/min\/min\/pass-input.directive-min-min.js",
+		"oAP": "\/min\/stations-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -83,9 +73,9 @@
 	"\/js\/directives\/pass-input\/pass-input.directive.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
-		"oAP": "\/js\/directives\/pass-input\/min\/pass-input.directive-min.js",
+		"oAP": "\/min\/pass-input.directive-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -97,22 +87,12 @@
 		"oAP": "\/js\/directives\/pass-input\/pass-input.template.html",
 		"oF": 0
 		},
-	"\/js\/directives\/station-input\/min\/station-input.directive-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/js\/directives\/station-input\/min\/min\/station-input.directive-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/js\/directives\/station-input\/station-input.directive.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
-		"oAP": "\/js\/directives\/station-input\/min\/station-input.directive-min.js",
+		"oAP": "\/min\/station-input.directive-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -124,32 +104,12 @@
 		"oAP": "\/js\/directives\/station-input\/station-input.template.html",
 		"oF": 0
 		},
-	"\/js\/services\/min\/pass.service-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/js\/services\/min\/min\/pass.service-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/services\/min\/station.service-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/services\/min\/min\/station.service-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/js\/services\/pass.service.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
-		"oAP": "\/js\/services\/min\/pass.service-min.js",
+		"oAP": "\/min\/pass.service-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -157,9 +117,9 @@
 	"\/js\/services\/station.service.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
-		"oAP": "\/js\/services\/min\/station.service-min.js",
+		"oAP": "\/min\/station.service-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -173,7 +133,7 @@
 	"creationDate": 531495510,
 	"displayValue": "rail-zones",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-chloe"
+	"iconImageName": "brackets_gray"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1979,9 +1939,9 @@
 		"autoOutputPathRelativePath": "\/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 1,
 		"createSourceMap": 0,
-		"minifyOutput": 1,
+		"minifyOutput": 0,
 		"syntaxCheckerStyle": 1,
 		"transpilerStyle": 0
 		},
